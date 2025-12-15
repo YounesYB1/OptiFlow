@@ -15,6 +15,15 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown(
+"""
+**Réalisé par :**
+- BOULOUDNINE Younes
+- AYACH Ahmed
+- EL ANSARI Souhail
+"""
+)
+
 # ═══════════════════════════════════════════════════════════════════════════════
 # 2. CSS PERSONNALISÉ & THÈME (MODE SOMBRE)
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -1732,3 +1741,4 @@ if calculate:
             st.warning("Veuillez vérifier le format de vos données d'entrée.")
             import traceback
             st.code(traceback.format_exc())
+
